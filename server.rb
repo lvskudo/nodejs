@@ -3,7 +3,7 @@ require 'json'
 
 # default port to 3000 or overwrite with PORT variable by running
 # $ PORT=3001 ruby server.rb
-port = ENV['PORT'] ? ENV['PORT'].to_i : 3000
+port = ENV['PORT'] ? ENV['PORT'].to_i : 80
 
 puts "Server started: http://localhost:#{port}/"
 
